@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word 轉 HTML (Tailwind CSS)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 bg-gray-50">
+    <div class="max-w-5xl mx-auto bg-white p-6 rounded shadow">
+        <h4 class="mb-4 font-semibold">一鍵完成，先把表格都刪掉，然後將WORD檔「全選」「複製」貼於此處即可。（預設十大標十小標十圖片以內）</h4>
+
+        <textarea id="StringTextBox8" class="w-full border rounded p-2 mb-3" rows="5"></textarea>
+        <button id="executeBtn" class="w-full bg-blue-600 text-white p-2 rounded mb-3">執行</button>
+
+        <div class="flex items-start gap-3 mb-3">
+            <textarea id="NewStringBox17" class="flex-1 border rounded p-2" rows="8">...</textarea>
+        </div>
+
+        <div id="NewStringBox18" class="prose"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

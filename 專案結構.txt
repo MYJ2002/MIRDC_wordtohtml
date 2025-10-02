@@ -1,0 +1,8 @@
+MII-Publish/
+│
+├── index.html
+├── script.js
+├── style.css
+├── README.md
+└── assets/
+    └── (放圖片用，可選)
